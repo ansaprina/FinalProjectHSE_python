@@ -1,9 +1,9 @@
-# 🪑 Streamlit Restaurant Booking System
+#  Streamlit Restaurant Booking System
 
 This is a web-based restaurant table booking application built with **Python** and **Streamlit**.  
 The project was developed as a final assignment for the Python Programming course at HSE University.
 
-## 🚀 Features
+##  Features
 
 - Add and manage restaurant tables through an intuitive web interface
 - Bookings are allowed only for the **following day or later**
@@ -12,7 +12,7 @@ The project was developed as a final assignment for the Python Programming cours
 - A table is considered **unavailable only if it is occupied**
 - Tables **cannot be deleted** if they are occupied or have any upcoming bookings
 
-## 🖥️ How to Run the App
+##  How to Run the App
 
 1. Install dependencies:
 
@@ -28,29 +28,24 @@ The project was developed as a final assignment for the Python Programming cours
 
 3. Add tables on the first screen and begin creating bookings.
 
-## 🗂️ Project Structure
+##  Project Structure
 
 - `app.py` — Streamlit user interface
 - `main.py` — optional CLI-based interface (legacy)
-- `restaurant.py` — core restaurant logic
-- `table.py` — table class and status handling
-- `booking.py` — booking rules and time constraints
-- `guest.py` — guest-related functionality
+- `classes` — folder with classes
+   - `restaurant.py` — core restaurant logic
+   - `table.py` — table class and status handling
+   - `booking.py` — booking rules and time constraints
+   - `guest.py` — guest-related functionality
 - `requirements.txt` — Python dependencies
 
-## 📸 Interface Preview
 
-You can add a screenshot here once available:
 
-```markdown
-![App Screenshot](screenshots/demo.png)
-```
-
-## 🧾 Requirements
+##  Requirements
 
 - Python 3.7+
 - Tested with Streamlit 1.40+
 
-## 🎓 About the Project
+##  About the Project
 
 This application was developed as part of the final project for the **Python Programming** course at the **National Research University Higher School of Economics (HSE)**.
